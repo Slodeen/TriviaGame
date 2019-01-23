@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    <title>Trivia Game</title>
+    
+
+</head>
+<body>
+
+    <style> 
+        body{
+             background-image: url(assets/images/background2.jpg);
+             background-size: 100%;
+             background-attachment: relative;
+         }
+     </style>    
+
+<div class="container">
+  <div id="btnBack">
+  <button id="btn" type="button" class="btn btn-primary btn-lg">START</button>
+   </div>
+  <div id="hidden">
+
+   <div id="questions">
+    <div class="jumbotron jumbotron-fluid">
+      <div id="timer"></div>
+    
+    <h2>PLEASE ANSWER THE QUESTIONS</h2>
+<div>
+  <legend>Who built the first car in USA? </legend>
+  <input type="radio" name="radio1" class="radio1" value="HenryFord">
+  <label RadioLebal="radio-1">Henry Ford</label><br>
+  <input type="radio" name="radio1" id="radio2" value="ThomasEdison">
+  <label Radiolebal="radio-2">Thomas Edison</label><br>
+  <input type="radio" name="radio1" id="radio3" value="NicolasTesla">
+  <label RadioLebal="radio-3">Nicolas Tesla</label><br>
+  <input type="radio" name="radio1" id="radio4" value="ElonMusk">
+  <label RadioLebal="radio-4">Elon Musk</label>
+    
+</div>
+
+<div>
+    <legend>who was the 31st president of the united states?</legend>
+    <input type="radio" name="radio2" class="radio2" value="HerbertHoover">
+    <label RadioLebal="radio-1">Herbert Hoover</label><br>
+    <input type="radio" name="radio2" id="radio6" value="FranklinRoosevelt">
+    <label Radiolebal="radio-2">Franklin Roosevelt</label><br>
+    <input type="radio" name="radio2" id="radio7" value="WoodrowWilson">
+    <label RadioLebal="radio-3">Woodrow Wilson</label><br>
+    <input type="radio" name="radio2" id="radio8" value="JamesMadison">
+    <label RadioLebal="radio-4">James Madison</label>
+      
+  </div>
+  
+  <div>
+    <legend>Which of the following jQuery selector selects all elements available in a DOM? </legend>
+    <input type="radio" name="radio3" class="radio3" value="$('*')">
+    <label RadioLebal="radio-1">"$('*')"</label><br>
+    <input type="radio" name="radio3" id="radio10" value="$('?')">
+    <label Radiolebal="radio-2">$('?')</label><br>
+    <input type="radio" name="radio3" id="radio11" value="$('#')">
+    <label RadioLebal="radio-3">$('#')</label><br>
+    <input type="radio" name="radio3" id="radio12" value="Noneoftheabove">
+    <label RadioLebal="radio-4">None of the above</label>
+        
+  </div>
+
+
+</div>
+<button id="lastBtn" type="button" class="btn btn-primary btn-lg">DONE</button>
+</div>
+
+<div id="results">
+    
+ <div id="correct"></div>
+ <div id="wrong"></div>
+ <div id="unanswered"></div>
+
+ <a href="file:///C:/HomeWork/TriviaGame/TriviaGame/index.html" class="badge badge-primary">Play Again</a>
+ 
+</div>
+</div>
+</div>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+   
+</body>
+</html>
